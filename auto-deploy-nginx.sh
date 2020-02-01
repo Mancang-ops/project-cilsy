@@ -5,9 +5,10 @@ sudo apt-get update
 echo -e "\033[1;32m <<=======================================>>\033[0m"
 echo -e "\033[1;32m <<=======================================>>\033[0m"
 echo "I'm doing installation nginx now"
+sudo apt-get install -y nginx
 echo -e "\033[1;32m <<=======================================>>\033[0m"
 echo -e "\033[1;32m <<=======================================>>\033[0m"
-sudo apt-get install php-fpm php-mysql
+sudo apt-get install -y php-fpm php-mysql
 echo -e "\033[1;32m <<=======================================>>\033[0m" 
 echo -e "\033[1;32m <<=======================================>>\033[0m"   
 echo "And You need This Mysql, so i'll install it for you bruhh"
